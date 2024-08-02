@@ -56,25 +56,25 @@ dial.append("svg:image")
 
 // add the white box for the phone number
 dial.append("rect")
-    .attr("x", "0mm")
-    .attr("y", "0mm")
-    .attr("width", "10mm")
-    .attr("height", "10mm")
+    .attr("x", "4mm")
+    .attr("y", "22mm")
+    .attr("width", "30mm")
+    .attr("height", "6mm")
     .attr("fill", "#fff")
 
 // add area number
 dial.append("text")
     .attr("class", "exch")
-    .attr("x", "19mm")
-    .attr("y", "24.1mm")
-    .text(getParameterByName("e") + "-");
+    .attr("x", "7.5mm")
+    .attr("y", "26.5mm")
+    .text(getParameterByName("e"));
 
 // add phone number
 dial.append("text")
     .attr("class", "num")
-    .attr("x", "19mm")
-    .attr("y", "30.2mm")
-    .text(getParameterByName("n"));
+    .attr("x", "22mm")
+    .attr("y", "26.5mm")
+    .text(`${getParameterByName("n")}-`);
 
 function updateExchange() {
   var exchange = document.getElementById("exchange").value;
