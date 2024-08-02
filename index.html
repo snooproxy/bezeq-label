@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Telephone-dial : Reproduction labels for rotary dial telephones">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700,700italic|Special+Elite" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="all" href="stylesheets/dial.css">
+
+    <title>Bezeq Phone Label Generator</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/snooproxy/bezeq-label">View on GitHub</a>
+
+          <h1 class="ui" id="project_title">Bezeq Rotary Phone Labels</h1>
+          <h2 class="ui" id="project_tagline">Reproduction labels for rotary dial telephones manufactured and marketed by Bezeq, internationally known as the Israeli National Telecommunication Company or B-COM.</h2>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+<p>This generator creates customised printable labels for Bezeq rotary telephones. It was designed to replicate the styling of the iconic Bezeq rotary telephones from the 1980s.</p>
+
+<h3>
+<a id="whats-your-phone-number" class="anchor" href="#whats-your-phone-number" aria-hidden="true"><span class="octicon octicon-link"></span></a>What's your phone number?</h3>
+<p class="ui">
+  Exchange:
+  <input type="text" id="exchange" name="exchange" oninput="updateExchange()">
+  <br>
+  Number:
+  <input type="text" id="number" name="number" oninput="updateNumber()">
+  <br>
+</p>
+
+<svg class="dial"></svg>
+
+<h3>
+<a id="printing-labels" class="anchor" href="#printing-labels" aria-hidden="true"><span class="octicon octicon-link"></span></a>Printing labels</h3>
+
+<p>Use the Print option on your browser. Turn off any page scaling options to print to the correct size. A label should be 38mm (1½ inches) across. Circular paper punches of the correct size can be purchased from art and craft suppliers for an easy clean finish.</p>
+
+<h3>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author</h3>
+
+<p>Originally by Peter Knight (<a href="https://github.com/going-digital" class="user-mention">@going-digital</a>) and Bezeq-ified by The Snooproxy Team (<a href="https://github.com/snooproxy" class="user-mention">@snooproxy</a>) for fun and nostalgia between team members. The fonts that are in use are: <a href="https://www.google.com/fonts/specimen/Roboto">Roboto by Christian Robertson</a>, and <a href="https://www.google.com/fonts/specimen/Special%20Elite">Special Elite by Astigmatic</a>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">This project maintained by <a href="https://github.com/snooproxy">The Snooproxy Team</a></p>
+        <p>and was published with <a href="https://pages.github.com">GitHub Pages</a>.</p>
+      </footer>
+    </div>
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="javascripts/main.js" charset="utf-8"></script>
+
+  </body>
+</html>
