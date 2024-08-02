@@ -52,7 +52,7 @@ dial.append("svg:image")
     .attr("y", "-9mm")
     .attr("width", "13mm")
     .attr("height", "10mm")
-    .attr("xlink:href", "images/Bezeq_first_logo-svg.svg")
+    .attr("xlink:href", "images/Bezeq_first_logo-svg-modified.svg")
 
 // add area number
 dial.append("text")
