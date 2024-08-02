@@ -35,7 +35,16 @@ dial.append("rect")
     .attr("y","0mm")
     .attr("width","38mm")
     .attr("height","38mm")
-    .attr("fill","#82836d");
+    .attr("fill","#0020c4");
+
+// define the actual circle for making the boundary visible and cutting easier
+dial.append("circle")
+    .attr("cx", "19mm")
+    .attr("cy", "19mm")
+    .attr("r", "19mm")
+    .attr("stroke", "#ccc")
+    .attr("stroke-width", "0.1mm")
+    .attr("fill", "none");
 
 // add area number
 dial.append("text")
