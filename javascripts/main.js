@@ -77,7 +77,7 @@ dial.append("text")
     .text(`${getParameterByName("n")}-`);
 
 function updateExchange() {
-  var exchange = document.getElementById("exchange").value;
+  var exchange = document.getElementById("exchange").value + "-";
   dial.select(".exch").text(exchange);
   setParameterByName("e", exchange);
 }
