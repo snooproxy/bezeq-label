@@ -48,18 +48,26 @@ dial.append("circle")
 
 // add the bezeq logo svg that i have modified
 dial.append("svg:image")
-    .attr("x", "0mm")
-    .attr("y", "-9mm")
-    .attr("width", "13mm")
-    .attr("height", "10mm")
+    .attr("x", "-86mm")
+    .attr("y", "3mm")
+    .attr("width", "175mm")
+    .attr("height", "15mm")
     .attr("xlink:href", "images/Bezeq_first_logo-svg-modified.svg")
+
+// add the white box for the phone number
+dial.append("rect")
+    .attr("x", "0mm")
+    .attr("y", "0mm")
+    .attr("width", "10mm")
+    .attr("height", "10mm")
+    .attr("fill", "#fff")
 
 // add area number
 dial.append("text")
     .attr("class", "exch")
     .attr("x", "19mm")
     .attr("y", "24.1mm")
-    .text(getParameterByName("e"));
+    .text(getParameterByName("e") + "-");
 
 // add phone number
 dial.append("text")
