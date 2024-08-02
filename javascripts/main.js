@@ -74,7 +74,7 @@ dial.append("text")
     .attr("class", "num")
     .attr("x", "22mm")
     .attr("y", "26.5mm")
-    .text(`${getParameterByName("n")}-`);
+    .text(`${getParameterByName("n")}--`);
 
 function updateExchange() {
   var exchange = document.getElementById("exchange").value + "-";
