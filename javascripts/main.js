@@ -46,6 +46,14 @@ dial.append("circle")
     .attr("stroke-width", "0.1mm")
     .attr("fill", "none");
 
+// add the bezeq logo svg that i have modified
+dial.append("svg")
+    .attr("x", "0mm")
+    .attr("y", "-9mm")
+    .attr("width", "13mm")
+    .attr("height", "10mm")
+    .attr("xlink:href", "images/Bezeq_first_logo-svg.svg")
+
 // add area number
 dial.append("text")
     .attr("class", "exch")
