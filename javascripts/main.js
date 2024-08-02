@@ -88,5 +88,5 @@ function updateNumber() {
   setParameterByName("n", exchange);
 }
 
-document.getElementById("exchange").value = getParameterByName("e");
-document.getElementById("number").value = getParameterByName("n");
+// document.getElementById("exchange").value = getParameterByName("e");
+// document.getElementById("number").value = getParameterByName("n");
