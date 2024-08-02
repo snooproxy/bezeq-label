@@ -47,7 +47,7 @@ dial.append("circle")
     .attr("fill", "none");
 
 // add the bezeq logo svg that i have modified
-dial.append("svg")
+dial.append("svg:image")
     .attr("x", "0mm")
     .attr("y", "-9mm")
     .attr("width", "13mm")
