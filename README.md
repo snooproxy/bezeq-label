@@ -1,4 +1,4 @@
-# telephone-dial
-Reproduction labels for rotary dial telephones
+# Rotary Phone Labels for Bezeq of Israel.
+Reproduction labels for rotary dial telephones manufactured and marketed by Bezeq (formerly The Israeli National Telecommunication Company)
 
-http://going-digital.github.io/telephone-dial
+http://snooproxy.github.io/bezeq-label
